@@ -1,8 +1,8 @@
 /*
  * @Author: error: git config user.name && git config user.email & please set dead value or install git
  * @Date: 2022-05-30 11:02:16
- * @LastEditors: ywc 1842347744@qq.com
- * @LastEditTime: 2022-05-30 11:26:54
+ * @LastEditors: heywc “1842347744@qq.com”
+ * @LastEditTime: 2022-06-09 15:28:34
  * @FilePath: /myself/mygithub/ReactDemo/src/components/testhook/useEffect/index.jsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -14,7 +14,7 @@ export function UseEffecExample() {
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
     // Update the document title using the browser API
-    document.title = `You clicked ${count} times`;
+    document.title = `You clicked ${count} times 111`;
   });
 
   return (
